@@ -1,1 +1,0 @@
-var sigma = 123
