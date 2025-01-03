@@ -1,0 +1,46 @@
+/* #first {
+  color: #22362a;
+  /* background-color: #598f6f;
+  background-image: url('https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/Zugpsitze_mountain.jpg?crop=0%2C176%2C3008%2C1654&wid=4000&hei=2200&scl=0.752');
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background: #598f6f url('https://avatars.dzeninfra.ru/get-zen_doc/5300260/pub_6368042844dbb37ff9c18b71_63680433db29c463d8ae45ac/scale_1200') no-repeat center center;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#second {
+  height: 2000px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+.main_text {
+  color: #000;
+  text-align: center;
+  font-size: 1.2em;
+  font-style: normal;
+  font-weight: bold;
+  font-family: "Jaro", sans-serif;
+
+  text-transform: none;
+  word-spacing: 2px;
+  letter-spacing: normal;
+  line-height: normal;
+} */
+
+#block {
+  background: red;
+  height: 200px;
+  width: 300px;
+  border: 7px solid #000;
+  /* border-bottom: 0;
+  border-top-style: dotted; */
+
+  border-radius: 30px;
+  opacity: 0.7;
+
+  margin: 20px 50px;
+  /* margin-top: 20px; */
+}
