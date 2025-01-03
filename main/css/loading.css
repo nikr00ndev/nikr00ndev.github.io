@@ -1,0 +1,7 @@
+/* Import */
+@import url('src/all.css');
+
+/* HTML */
+* {
+    background-color: #212121;
+}

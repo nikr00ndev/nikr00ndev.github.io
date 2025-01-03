@@ -1,0 +1,131 @@
+/* Options */
+
+  header.Options {
+    margin-top: 0;
+    position: absolute;
+    background-color: var(--bg-color);
+    height: 90px;
+    width: 100%;
+    border-radius: 0px;
+    transition: 0.5s;
+    z-index: 3;
+  }
+  
+  a.Options {
+    display: inline-block;
+    margin: 0 0.2em;
+    background: var(--a-color);
+    border-radius: 2px;
+    transition: 0.5s;
+    z-index: 5;
+  }
+  
+  img.Options {
+    width: 95px;
+    height: 35px;
+    margin-left: 10px;
+    transition: all 0.2s ease-in;
+    box-shadow: 0 0 25px var(--img-shadow);
+    border-radius: 2px;
+    border: 1px solid var(--img-border);
+    background: var(--img-bg);
+    color: var(--img-color);
+    overflow: hidden;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    z-index: 5;
+  }
+  
+  nav.Options {
+    margin-top: 25px;
+    background-color: var(--nav-bg);
+    color: var(--nav-color);
+    border-radius: 3px;
+    box-shadow:0 0 100px var(--nav-shadow);
+    z-index: 4;
+  }
+  
+  button.Options {
+    margin-left: 5px;
+    position: relative;
+    padding: var(--button-padding);
+    border-radius: 5px;
+    border: 1px solid var(--button-border);
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    background: transparent;
+    color: white;
+    overflow: hidden;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    z-index: 5;
+  }
+  
+  button.Options:hover {
+    background: var(--button-hovered);
+    box-shadow: 0 0 30px 5px var(--button-hovered);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+  }
+  
+  button.Options:hover::before {
+    -webkit-animation: sh02 0.5s 0s linear;
+    -moz-animation: sh02 0.5s 0s linear;
+    animation: sh02 0.5s 0s linear;
+  }
+  
+  button.Options::before {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 86%;
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    opacity: 0;
+    background: #fff;
+    box-shadow: 0 0 50px 30px #fff;
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+  }
+  
+  @keyframes sh02 {
+    from {
+      opacity: 0;
+      left: 0%;
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+      left: 100%;
+    }
+  }
+  
+  button.Options:active {
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: box-shadow 0.2s ease-in;
+    -moz-transition: box-shadow 0.2s ease-in;
+    transition: box-shadow 0.2s ease-in;
+  }
+  
+  img.Options:hover {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 30px 5px rgb(255, 255, 255);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+  }
